@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "push": "git add . && git commit -m \"$npm_config_message\" && git push origin master"
   },
   "author": "",
   "license": "ISC",
