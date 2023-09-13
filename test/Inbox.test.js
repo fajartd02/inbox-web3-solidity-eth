@@ -10,7 +10,7 @@ const INITIAL_STRING = "Hi There!";
 
 beforeEach(async () => {
   // Get a list of all accounts
-  accounts = await web3.eth.getAccounts();
+  accounts = web3.eth.getAccounts();
 
   // Use on of those accounts to deploy
   // The contract
